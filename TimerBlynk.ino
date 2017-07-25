@@ -26,6 +26,8 @@ long nowSecond;
 
 BLYNK_WRITE(V5)
 {
+  //0-1 v5
+  //1-0 gp2
   int pinValue = param.asInt(); 
   if(pinValue == 1)
   {
